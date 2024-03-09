@@ -1,0 +1,156 @@
+.main {
+    background-color: aliceblue;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.first {
+    line-height: 0px;
+}
+
+.name {
+    font-family: inherit;
+    font-size: 150px;
+    margin-left: 90px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    margin-top: 0;
+}
+
+.tag {
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(70, 182, 248);
+    margin-left: 200px;
+}
+
+.para {
+    line-height: 25px;
+    margin-left: 150px;
+    margin-top: 80px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 8px;
+}
+
+.int {
+    height: 300px;
+    width: 400px;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+.logo {
+    width: 150px;
+}
+
+.ham {
+    width: 35px;
+    margin-right: 5px;
+}
+
+.menu {
+    border: none;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.right-section {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+    position: relative;
+    right: 0;
+}
+
+.intern {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background-color: rgb(155, 216, 249);
+    ;
+    height: 350px;
+    padding-top: 120px;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.linked,
+.mail,
+.call,
+.web {
+    display: flex;
+    flex-direction: row;
+}
+
+.line {
+    margin-left: 15px;
+    font-family: cursive;
+    font-size: larger;
+}
+
+.but {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.get {
+    padding-top: 10px;
+    font-size: larger;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.footer {
+    flex-direction: row;
+    align-content: center;
+    margin-bottom: 0px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 9px;
+    margin-left: 10px;
+}
